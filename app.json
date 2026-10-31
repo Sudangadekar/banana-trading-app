@@ -9,6 +9,15 @@
       "package": "com.yourcompany.sabalebanana",
       "versionCode": 1
     },
-    "plugins": ["expo-sqlite"]
+    "plugins": [
+      "expo-sqlite",
+      "expo-sharing",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9de0f3bd-b1d9-44b0-b5d1-5925c9166df6"
+      }
+    }
   }
 }
