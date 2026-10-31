@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Expo and generated web output
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native build output
+android/
+ios/
+*.apk
+*.aab
+*.ipa
+
+# Signing keys and provisioning files
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.provisionprofile
+
+# Metro and debug logs
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+*.tsbuildinfo
